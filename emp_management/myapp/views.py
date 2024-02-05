@@ -77,7 +77,6 @@ def filter_emp(request):
         if role:
             emps = emps.filter(role = role)
             
-            
         
         context = {
             'emps' : emps
