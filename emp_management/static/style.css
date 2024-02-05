@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Home Page */
+body h1{
+    text-align: center;
+}
+.image{
+    float: right;
+    margin-right: 8px;
+}
+.image img{
+    height: 45vh;
+    width: 80vh;
+}
+.mcontainer{
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.mcontainer a{
+    padding: 8px;
+    border: 2px solid black;
+    margin: 20px;
+    width: 40vh;
+    animation: float 5s linear infinite;
+}
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateX(0rem);
+    }
+
+    50% {
+        transform: translateX(7rem);
+    }
+}    
+.mcontainer a:hover{
+    background-color: brown;
+    color: white;
+}
+.mcontainer form input{
+    height: 35px;
+    width: 45vh;
+}
+.fcontainer{
+    margin-top: 73px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+.fcontainer footer{
+    font-size: larger;
+    padding-top: 3vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
